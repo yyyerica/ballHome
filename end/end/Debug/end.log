@@ -1,0 +1,30 @@
+﻿Build started 2017/4/8 15:05:23.
+     1>Project "G:\opengl\end\end\end.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         B:\vs2013update5\install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\YYY\Desktop\Breakout\app1\app1\ball_object.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\Game.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\game_level.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\game_object.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\particle_generator.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\ResourceManager.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\Shader.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\Source.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\SpriteRenderer.cpp C:\Users\YYY\Desktop\Breakout\app1\app1\Texture.cpp
+         Texture.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\texture.h(12): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         SpriteRenderer.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\sprite_renderer.h(12): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Source.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\source.cpp(14): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         Shader.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\shader.h(14): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         ResourceManager.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\resource_manager.h(15): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         particle_generator.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\particle_generator.h(13): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         game_object.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\game_object.h(12): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         game_level.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\game_level.h(14): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         Game.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\game.h(14): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         ball_object.cpp
+     1>c:\users\yyy\desktop\breakout\app1\app1\ball_object.h(12): fatal error C1083: Cannot open include file: 'GLEW/glew.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "G:\opengl\end\end\end.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.45
